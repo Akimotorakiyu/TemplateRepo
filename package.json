@@ -12,6 +12,7 @@
     "typescript": "^4.4.2"
   },
   "scripts": {
+    "prepare": "husky install",
     "serve": "pnpm --filter=./packages/example run serve",
     "build": "pnpm --filter=./packages/example run build"
   },
