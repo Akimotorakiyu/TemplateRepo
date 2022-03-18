@@ -2,8 +2,12 @@
 
 template-repo
 
-# Features
+## dev
 
-- pnpm
-- mono
-- vite
+```sh
+// install
+pnpm install
+
+// dev
+pnpm serve
+```
