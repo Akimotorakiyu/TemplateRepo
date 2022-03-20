@@ -1,6 +1,6 @@
-# Template-Repo
+# 🎬 Template-Repo
 
-template-repo
+A template repo
 
 ## dev
 
@@ -11,3 +11,7 @@ pnpm install
 // dev
 pnpm serve
 ```
+
+## deploy
+
+support [netlify.app](https://netlify.app)
