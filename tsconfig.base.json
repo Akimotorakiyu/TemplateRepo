@@ -8,9 +8,9 @@
     "alwaysStrict": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "sourceMap": true,
-    "jsx": "preserve",
-    "lib": ["ESNext", "DOM", "DOM.Iterable", "WebWorker"]
+    "lib": ["ESNext"]
   }
 }
