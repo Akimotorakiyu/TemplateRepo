@@ -14,7 +14,8 @@
   "scripts": {
     "prepare": "husky install",
     "serve": "pnpm --filter=./packages/example run serve",
-    "build": "pnpm --filter=./packages/example run build"
+    "build": "pnpm --filter=./packages/example run build",
+    "dev": "pnpm --filter=./packages/example-node run dev"
   },
   "keywords": [],
   "author": "",
