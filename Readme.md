@@ -2,7 +2,7 @@
 
 A template repo
 
-## dev
+## vue example
 
 ```sh
 // install
@@ -10,6 +10,16 @@ pnpm install
 
 // dev
 pnpm serve
+```
+
+## node example
+
+```sh
+// install
+pnpm install
+
+// dev
+pnpm dev
 ```
 
 ## deploy
