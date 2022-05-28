@@ -1,34 +1,25 @@
 # 🎬 Template-Repo
 
-A template repo
+A pnpm template repo
 
 ## vue example
 
-```sh
-// install
-pnpm install
+### install
 
-// dev
+```sh
+pnpm install
+```
+
+### dev
+
+```sh
+# vue3 dev
 pnpm serve
-```
 
-## react example
-
-```sh
-// install
-pnpm install
-
-// dev
+# react18 example
 pnpm serve-react
-```
 
-## node example
-
-```sh
-// install
-pnpm install
-
-// dev
+# node example
 pnpm dev
 ```
 
