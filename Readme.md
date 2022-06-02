@@ -21,6 +21,9 @@ pnpm serve-react
 
 # node example
 pnpm dev
+
+# fass-node example
+pnpm dev-fass
 ```
 
 ## deploy
