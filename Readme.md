@@ -1,6 +1,6 @@
 # 🎬 Template-Repo
 
-A pnpm template repo
+A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [esno](https://github.com/esbuild-kit/esno).
 
 ## vue example
 
@@ -34,9 +34,10 @@ Open the javascript debug terminal of vscode, then run `dev command`.
 
 support [netlify.app](https://netlify.app) ([template-repo.netlify.app](https://template-repo.netlify.app))
 
-default to deploy vue example, if you want to deploy react example, just change the `./netlify.toml`
+default to deploy vue example, if you want to deploy react example, just change the `./netlify.toml`.
 
 ```toml
+# https://docs.netlify.com/configure-builds/file-based-configuration/
 #...
 [build]
   command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
