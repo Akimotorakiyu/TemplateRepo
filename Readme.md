@@ -26,6 +26,10 @@ pnpm dev
 pnpm dev-fass
 ```
 
+### debug node/node-fass example
+
+Open the javascript debug terminal of vscode, then run `dev command`.
+
 ## deploy
 
 support [netlify.app](https://netlify.app) ([template-repo.netlify.app](https://template-repo.netlify.app))
