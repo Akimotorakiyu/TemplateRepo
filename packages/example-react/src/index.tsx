@@ -1,6 +1,9 @@
 import './style.css'
 // import 'virtual:windi-devtools'
 import 'virtual:windi.css'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { App } from './App'
-const app = render(<App></App>, document.getElementById('root'))
+
+const container = document.getElementById('app')!
+const root = createRoot(container) // createRoot(container!) if you use TypeScript
+root.render(<App />)
