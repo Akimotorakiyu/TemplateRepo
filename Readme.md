@@ -23,6 +23,9 @@ pnpm serve
 # react18 example
 pnpm serve-react
 
+# nuxt example
+pnpm serve-react
+
 # node example
 pnpm dev
 

@@ -14,9 +14,10 @@
     "zx": "^6.2.3"
   },
   "scripts": {
-    "prepare": "husky install && pnpm run mkcert",
+    "prepare": "husky install",
     "serve": "pnpm --filter=./packages/example run serve",
     "serve-react": "pnpm --filter=./packages/example-react run serve",
+    "serve-nuxt": "pnpm --filter=./packages/example-nuxt run serve",
     "build": "pnpm --filter=./packages/example run build",
     "dev": "pnpm --filter=./packages/example-node run dev",
     "dev-fass": "pnpm --filter=./packages/example-fass-node run dev",
