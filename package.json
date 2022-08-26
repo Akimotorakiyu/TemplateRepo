@@ -15,6 +15,7 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "update": "pnpm --recursive update",
     "serve": "pnpm run serve-vue",
     "serve-vue": "pnpm --filter=./packages/example-vue run serve",
     "serve-react": "pnpm --filter=./packages/example-react run serve",
