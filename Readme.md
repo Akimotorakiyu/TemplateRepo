@@ -18,7 +18,7 @@ install `./cert/ca.crt`
 
 ```sh
 # vue3 dev
-pnpm serve
+pnpm serve-vue
 
 # react18 example
 pnpm serve-react
