@@ -1,6 +1,6 @@
 # 🎬 Template-Repo
 
-A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [esno](https://github.com/esbuild-kit/esno).
+A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [tsx](https://github.com/esbuild-kit/tsx).
 
 ## vue example
 
