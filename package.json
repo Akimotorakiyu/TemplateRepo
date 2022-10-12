@@ -21,7 +21,7 @@
     "serve-vue": "pnpm --filter=./packages/example-vue run serve",
     "serve-react": "pnpm --filter=./packages/example-react run serve",
     "serve-nuxt": "pnpm --filter=./packages/example-nuxt run serve",
-    "build": "pnpm --filter=./packages/example run build",
+    "build": "pnpm --filter=./packages/example-vue run build",
     "dev": "pnpm --filter=./packages/example-node run dev",
     "dev-fass": "pnpm --filter=./packages/example-fass-node run dev",
     "mkcert": "mkcert create-cert --ca-key cert/ca.key --ca-cert cert/ca.crt --validity 666 --key cert/temp/cert.key --cert cert/temp/cert.crt --domains \"localhost,127.0.0.1,0.0.0.0\""

@@ -5,7 +5,7 @@
 
 [build]
   command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
-  publish = "packages/example/dist"
+  publish = "packages/example-vue/dist"
 
 # The following redirect is intended for use with most SPAs 
 # that handle routing internally.
