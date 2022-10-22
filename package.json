@@ -4,19 +4,19 @@
   "description": "🎬 A pnpm template repo, typescript support out of box with vite and tsx.",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@types/node": "^18.0.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@types/node": "^18.11.3",
     "husky": "^8.0.1",
     "mkcert": "^1.5.1",
     "prettier": "^2.7.1",
     "pretty-quick": "^3.1.3",
-    "typescript": "^4.8.2",
-    "zx": "^7.0.8"
+    "typescript": "^4.8.4",
+    "zx": "^7.1.1"
   },
   "scripts": {
     "prepare": "husky install",
-    "update": "pnpm --recursive update",
+    "update-dependencies": "pnpm --recursive update",
     "serve": "pnpm run serve-vue",
     "serve-vue": "pnpm --filter=./packages/example-vue run serve",
     "serve-react": "pnpm --filter=./packages/example-react run serve",
