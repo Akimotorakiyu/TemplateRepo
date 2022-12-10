@@ -12,10 +12,10 @@ import { certKey, certCrt } from '../../cert'
 export default defineConfig({
   plugins: [WindiCSS(), vue(), jsx()],
   server: {
-    https: {
-      cert: certCrt,
-      key: certKey,
-    },
+    // https: {
+    //   cert: certCrt,
+    //   key: certKey,
+    // },
   },
   css: {
     postcss: {
