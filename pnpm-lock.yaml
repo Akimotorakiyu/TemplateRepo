@@ -63,7 +63,16 @@ importers:
 
   packages/example-nuxt:
     specifiers:
+      '@vue/runtime-core': ^3.2.45
+      '@vue/server-renderer': ^3.2.45
       nuxt: 3.0.0
+      vue: ^3.2.45
+      vue-bundle-renderer: ^1.0.0
+    dependencies:
+      '@vue/runtime-core': 3.2.45
+      '@vue/server-renderer': 3.2.45_vue@3.2.45
+      vue: 3.2.45
+      vue-bundle-renderer: 1.0.0
     devDependencies:
       nuxt: 3.0.0
 
@@ -8327,7 +8336,6 @@ packages:
       {
         integrity: sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==,
       }
-    dev: true
 
   /ultrahtml/1.0.4:
     resolution:
@@ -8748,7 +8756,6 @@ packages:
       }
     dependencies:
       ufo: 1.0.1
-    dev: true
 
   /vue-devtools-stub/0.1.0:
     resolution:

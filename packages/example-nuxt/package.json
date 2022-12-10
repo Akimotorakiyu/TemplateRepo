@@ -4,9 +4,16 @@
     "build": "nuxt build",
     "serve": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@vue/runtime-core": "^3.2.45",
+    "@vue/server-renderer": "^3.2.45",
+    "vue": "^3.2.45",
+    "vue-bundle-renderer": "^1.0.0"
   }
 }
