@@ -9,12 +9,12 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@vue/runtime-core": "^3.2.47",
     "@vue/server-renderer": "^3.2.47",
     "vue": "^3.2.47",
-    "vue-bundle-renderer": "^1.0.2"
+    "vue-bundle-renderer": "^1.0.3"
   }
 }

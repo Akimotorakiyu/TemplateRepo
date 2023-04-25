@@ -11,13 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue": "^4.2.0",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "@vue/compiler-sfc": "^3.2.47",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.23",
     "postcss-nested": "^6.0.1",
-    "typescript": "^5.0.2",
-    "vite": "^4.2.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.2",
     "vite-plugin-windicss": "^1.8.10",
     "windicss": "^3.5.6"
   },
