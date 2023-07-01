@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "@vue/runtime-core": "^3.3.4",

@@ -1,9 +1,19 @@
-import './style.css'
-// import 'virtual:windi-devtools'
-import 'virtual:windi.css'
-import { createRoot } from 'react-dom/client'
-import { App } from './App'
+import { observable, reaction } from 'mobx'
 
-const container = document.getElementById('app')!
-const root = createRoot(container) // createRoot(container!) if you use TypeScript
-root.render(<App />)
+export class RootStore {
+  @observable selectorHeight? = 1
+}
+
+export const store = new RootStore()
+
+setTimeout(() => {
+  console.log('set A')
+  store.selectorHeight = 5
+}, 3000)
+
+reaction(
+  () => store.selectorHeight,
+  () => {
+    console.log('8888844, change')
+  },
+)

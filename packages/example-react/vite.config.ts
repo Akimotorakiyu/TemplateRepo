@@ -9,7 +9,7 @@ import WindiCSS from 'vite-plugin-windicss'
 import { certKey, certCrt } from '../../cert'
 
 export default defineConfig({
-  plugins: [WindiCSS(), react()],
+  plugins: [WindiCSS()],
   server: {
     // https: {
     //   cert: certCrt,
@@ -20,5 +20,8 @@ export default defineConfig({
     postcss: {
       plugins: [nested as any],
     },
+  },
+  esbuild: {
+    target: 'es2021',
   },
 })
