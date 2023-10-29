@@ -11,14 +11,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@esbuild-kit/cjs-loader": "^2.4.2",
-    "@esbuild-kit/esm-loader": "^2.5.5",
-    "@types/node": "^18.16.19",
+    "@esbuild-kit/cjs-loader": "^2.4.4",
+    "@esbuild-kit/esm-loader": "^2.6.5",
+    "@types/node": "^20.8.9",
     "cross-env": "^7.0.3",
-    "tsx": "^3.12.7",
-    "typescript": "^5.1.6"
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
-    "axios": "^1.4.0"
+    "axios": "^1.5.1"
   }
 }
