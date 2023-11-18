@@ -33,6 +33,12 @@ pnpm dev
 pnpm dev-fass
 ```
 
+### useDefineForClassFields
+```json
+// tsconfig
+"useDefineForClassFields": false
+```
+
 ### debug node/node-fass example
 
 Open the javascript debug terminal of vscode, then run `dev command`.
