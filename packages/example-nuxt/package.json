@@ -12,9 +12,9 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@vue/runtime-core": "^3.3.7",
-    "@vue/server-renderer": "^3.3.7",
-    "vue": "^3.3.7",
+    "@vue/runtime-core": "^3.3.8",
+    "@vue/server-renderer": "^3.3.8",
+    "vue": "^3.3.8",
     "vue-bundle-renderer": "^1.0.3"
   }
 }
