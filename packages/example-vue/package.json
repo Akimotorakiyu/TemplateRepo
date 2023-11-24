@@ -16,9 +16,9 @@
     "@vue/compiler-sfc": "^3.3.8",
     "postcss": "^8.4.31",
     "postcss-nested": "^6.0.1",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
-    "vite-plugin-windicss": "^1.9.1",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2",
+    "vite-plugin-windicss": "^1.9.2",
     "windicss": "^3.5.6"
   },
   "dependencies": {
