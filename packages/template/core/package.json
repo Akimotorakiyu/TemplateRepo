@@ -6,5 +6,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "@template/core": "workspace:*"
+  }
 }

@@ -8,10 +8,6 @@ A pnpm template repo, support typescript out of box with [vite](https://github.c
 pnpm install
 ```
 
-### https
-
-install `./cert/ca.crt`
-
 ### dev
 
 ```sh
@@ -32,6 +28,7 @@ pnpm dev-fass
 ```
 
 ### useDefineForClassFields
+
 ```json
 // tsconfig
 "useDefineForClassFields": false

@@ -4,19 +4,19 @@
   "description": "🎬 A pnpm template repo, typescript support out of box with vite and tsx.",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3",
-    "@commitlint/config-conventional": "^18.4.3",
-    "@types/node": "^20.10.5",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "mkcert": "^3.2.0",
-    "prettier": "^3.1.1",
-    "typescript": "^5.3.3",
+    "@commitlint/cli": "^18.6.0",
+    "@commitlint/config-conventional": "^18.6.0",
+    "@types/node": "^20.11.7",
+    "husky": "^9.0.6",
+    "prettier": "^3.2.4",
+    "pretty-quick": "^4.0.0",
+    "typescript": "5.3.3",
     "zx": "^7.2.3"
   },
   "scripts": {
     "prepare": "husky install",
     "update-dependencies": "pnpm --recursive update",
+    "update-dependencies-latest": "pnpm --recursive update --latest",
     "serve": "pnpm run serve-vue",
     "serve-vue": "pnpm --filter=./packages/example-vue run serve",
     "serve-react": "pnpm --filter=./packages/example-react run serve",
@@ -30,7 +30,8 @@
   "author": "Akimotorakiyu",
   "license": "MIT",
   "dependencies": {
-    "@commitlint/types": "^17.8.1"
+    "@commitlint/types": "^18.6.0",
+    "lint-staged": "^15.2.0"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
