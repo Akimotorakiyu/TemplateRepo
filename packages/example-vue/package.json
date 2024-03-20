@@ -11,17 +11,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.3",
+    "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
-    "@vue/compiler-sfc": "^3.4.15",
-    "postcss": "^8.4.33",
+    "@vue/compiler-sfc": "^3.4.21",
+    "postcss": "^8.4.37",
     "postcss-nested": "^6.0.1",
-    "vite": "^5.0.12",
+    "vite": "^5.2.2",
     "vite-plugin-windicss": "^1.9.3",
     "windicss": "^3.5.6"
   },
   "dependencies": {
     "@template/template": "workspace:*",
-    "vue": "^3.4.15"
+    "vue": "^3.4.21"
   }
 }
