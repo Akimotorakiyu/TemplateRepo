@@ -20,6 +20,7 @@
     "serve": "pnpm run serve-vue",
     "serve-vue": "pnpm --filter=./packages/example-vue run serve",
     "serve-react": "pnpm --filter=./packages/example-react run serve",
+    "serve-micro": "pnpm --filter=./packages/example-micro-app run serve",
     "serve-nuxt": "pnpm --filter=./packages/example-nuxt run serve",
     "build": "pnpm --filter=./packages/example-vue run build",
     "dev": "pnpm --filter=./packages/example-node run dev",

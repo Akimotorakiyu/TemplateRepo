@@ -1,6 +1,6 @@
 # 🎬 Template-Repo
 
-A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [tsx](https://github.com/esbuild-kit/tsx).
+A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [tsx](https://github.com/esbuild-kit/tsx), support micro app with [wujie](https://github.com/Tencent/wujie)
 
 ### install
 
@@ -16,6 +16,9 @@ pnpm serve-vue
 
 # react18 example
 pnpm serve-react
+
+# micro example
+pnpm serve-micro-app
 
 # nuxt example
 pnpm serve-react
