@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@template/template": "workspace:*",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "wujie": "^1.0.22"
   }
 }
