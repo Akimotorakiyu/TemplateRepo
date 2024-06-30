@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^5.2.12"
+    "vite": "^5.3.2"
   },
   "dependencies": {
     "@template/template": "workspace:*",
