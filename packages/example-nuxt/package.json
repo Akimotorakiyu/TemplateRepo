@@ -8,12 +8,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.12.3"
+    "nuxt": "3.12.4"
   },
   "dependencies": {
-    "@vue/runtime-core": "^3.4.31",
-    "@vue/server-renderer": "^3.4.31",
-    "vue": "^3.4.31",
+    "@vue/runtime-core": "^3.4.38",
+    "@vue/server-renderer": "^3.4.38",
+    "vue": "^3.4.38",
     "vue-bundle-renderer": "^2.1.0"
   }
 }
