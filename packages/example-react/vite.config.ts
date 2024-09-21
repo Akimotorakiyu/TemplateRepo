@@ -6,16 +6,9 @@ import nested from 'postcss-nested'
 
 import WindiCSS from 'vite-plugin-windicss'
 
-import { certKey, certCrt } from '../../cert'
-
 export default defineConfig({
   plugins: [WindiCSS()],
-  server: {
-    // https: {
-    //   cert: certCrt,
-    //   key: certKey,
-    // },
-  },
+  server: {},
   css: {
     postcss: {
       plugins: [nested as any],

@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.5.4",
-    "tsx": "^4.19.0",
-    "typescript": "5.5.4"
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
+    "typescript": "5.6.2"
   },
   "dependencies": {
     "nodejs-polars": "^0.15.0"

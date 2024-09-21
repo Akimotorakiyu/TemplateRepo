@@ -4,14 +4,14 @@
   "description": "🎬 A pnpm template repo, typescript support out of box with vite and tsx.",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^19.4.1",
-    "@commitlint/config-conventional": "^19.4.1",
-    "@types/node": "^22.5.4",
-    "husky": "^9.1.5",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@types/node": "^22.5.5",
+    "husky": "^9.1.6",
     "prettier": "^3.3.3",
     "pretty-quick": "^4.0.0",
-    "typescript": "5.5.4",
-    "zx": "^8.1.5"
+    "typescript": "5.6.2",
+    "zx": "^8.1.8"
   },
   "scripts": {
     "prepare": "husky install",
@@ -24,14 +24,13 @@
     "serve-nuxt": "pnpm --filter=./packages/example-nuxt run serve",
     "build": "pnpm --filter=./packages/example-vue run build",
     "dev": "pnpm --filter=./packages/example-node run dev",
-    "dev-fass": "pnpm --filter=./packages/example-fass-node run dev",
-    "mkcert": "mkcert create-cert --ca-key cert/ca.key --ca-cert cert/ca.crt --validity 666 --key cert/temp/cert.key --cert cert/temp/cert.crt --domains \"localhost,127.0.0.1,0.0.0.0\""
+    "dev-fass": "pnpm --filter=./packages/example-fass-node run dev"
   },
   "keywords": [],
   "author": "Akimotorakiyu",
   "license": "MIT",
   "dependencies": {
-    "@commitlint/types": "^19.0.3",
+    "@commitlint/types": "^19.5.0",
     "lint-staged": "^15.2.10"
   },
   "lint-staged": {
