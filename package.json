@@ -4,14 +4,14 @@
   "description": "🎬 A pnpm template repo, typescript support out of box with vite and tsx.",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0",
-    "@types/node": "^22.8.5",
-    "husky": "^9.1.6",
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@types/node": "^22.9.3",
+    "husky": "^9.1.7",
     "prettier": "^3.3.3",
     "pretty-quick": "^4.0.0",
-    "typescript": "5.6.3",
-    "zx": "^8.1.9"
+    "typescript": "5.7.2",
+    "zx": "^8.2.2"
   },
   "scripts": {
     "prepare": "husky install",

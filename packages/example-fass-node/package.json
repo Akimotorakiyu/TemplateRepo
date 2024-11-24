@@ -13,9 +13,9 @@
   "devDependencies": {
     "@esbuild-kit/cjs-loader": "^2.4.4",
     "@esbuild-kit/esm-loader": "^2.6.5",
-    "@types/node": "^22.8.5",
+    "@types/node": "^22.9.3",
     "cross-env": "^7.0.3",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "dependencies": {
     "axios": "^1.7.7"

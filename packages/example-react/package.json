@@ -14,9 +14,9 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
-    "postcss": "^8.4.47",
-    "postcss-nested": "^7.0.0",
-    "vite": "^5.4.10",
+    "postcss": "^8.4.49",
+    "postcss-nested": "^7.0.2",
+    "vite": "^5.4.11",
     "vite-plugin-windicss": "^1.9.3",
     "windicss": "^3.5.6"
   },
@@ -26,6 +26,6 @@
     "mobx-react": "^9.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "wujie": "^1.0.22"
+    "wujie": "^1.0.23"
   }
 }

@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^5.4.10"
+    "vite": "^5.4.11"
   },
   "dependencies": {
     "@template/template": "workspace:*",
-    "wujie": "^1.0.22"
+    "wujie": "^1.0.23"
   }
 }
