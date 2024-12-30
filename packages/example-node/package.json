@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "tsx": "^4.19.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "nodejs-polars": "^0.16.0"
+    "nodejs-polars": "^0.17.0"
   }
 }
