@@ -1,6 +1,6 @@
 # 🎬 Template-Repo
 
-A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [tsx](https://github.com/esbuild-kit/tsx), support micro app with [wujie](https://github.com/Tencent/wujie)
+A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [jiti](https://github.com/unjs/jiti), support micro app with [wujie](https://github.com/Tencent/wujie)
 
 ### install
 

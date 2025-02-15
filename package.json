@@ -1,7 +1,7 @@
 {
   "name": "template-repo",
   "version": "0.0.0",
-  "description": "🎬 A pnpm template repo, typescript support out of box with vite and tsx.",
+  "description": "🎬 A pnpm template repo, typescript support out of box with vite and jiti.",
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",

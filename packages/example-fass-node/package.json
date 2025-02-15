@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development tsx watch ./index.js",
+    "dev": "cross-env NODE_ENV=development jiti watch ./index.js",
     "dev-dist": "node ./index.js"
   },
   "keywords": [],

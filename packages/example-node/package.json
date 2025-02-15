@@ -5,14 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "jiti watch src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.1",
-    "tsx": "^4.19.2",
     "typescript": "5.7.3"
   },
   "dependencies": {
@@ -20,6 +19,7 @@
     "@hono/client": "^0.0.3",
     "@hono/zod-validator": "^0.4.2",
     "hono": "^4.7.0",
+    "jiti": "^2.4.2",
     "nodejs-polars": "^0.18.0",
     "pylon": "^0.0.24",
     "zod": "^3.24.1"
