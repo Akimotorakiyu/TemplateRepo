@@ -15,13 +15,11 @@
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "@getcronit/pylon": "^2.9.4",
     "@hono/client": "^0.0.3",
     "@hono/zod-validator": "^0.4.2",
     "hono": "^4.7.0",
     "jiti": "^2.4.2",
     "nodejs-polars": "^0.18.0",
-    "pylon": "^0.0.24",
     "zod": "^3.24.1"
   }
 }
