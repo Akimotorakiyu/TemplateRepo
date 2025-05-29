@@ -12,9 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
-    "@vitejs/plugin-vue-jsx": "^4.1.2",
-    "@vue/compiler-sfc": "^3.5.13",
-    "postcss": "^8.5.3",
+    "@vitejs/plugin-vue-jsx": "^4.2.0",
+    "@vue/compiler-sfc": "^3.5.16",
+    "postcss": "^8.5.4",
     "postcss-nested": "^7.0.2",
     "vite": "^6.3.5",
     "vite-plugin-windicss": "^1.9.4",
@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "@template/template": "workspace:*",
-    "alova": "^3.2.10",
-    "ts-pattern": "^5.7.0",
-    "vue": "^3.5.13",
+    "alova": "^3.2.13",
+    "ts-pattern": "^5.7.1",
+    "vue": "^3.5.16",
     "wujie": "^1.0.28"
   }
 }

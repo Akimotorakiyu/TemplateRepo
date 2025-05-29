@@ -9,12 +9,12 @@
     "build": "pylon build"
   },
   "dependencies": {
-    "@getcronit/pylon": "^2.9.4",
-    "@hono/node-server": "^1.14.1",
+    "@getcronit/pylon": "^2.9.5",
+    "@hono/node-server": "^1.14.3",
     "jiti": "^2.4.2"
   },
   "devDependencies": {
-    "@getcronit/pylon-dev": "^1.0.4"
+    "@getcronit/pylon-dev": "^1.0.5"
   },
   "repository": {
     "type": "git",
