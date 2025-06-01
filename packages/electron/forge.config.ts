@@ -25,10 +25,10 @@ const config: ForgeConfig = {
       build: [
         {
           // `entry` is just an alias for `build.lib.entry` in the corresponding file of `config`.
+          // esmodule 模式下，forge.config 不起作用，在 vite.main.config.ts 中配置
           entry: 'src/main.ts',
           config: 'vite.main.config.ts',
           target: 'main',
-          formats: ['es'],
         },
         {
           entry: 'src/preload.ts',
