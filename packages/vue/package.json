@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "serve": "vite --host",
     "build": "vite build"
@@ -16,9 +17,9 @@
     "@vue/compiler-sfc": "^3.5.16",
     "postcss": "^8.5.4",
     "postcss-nested": "^7.0.2",
-    "vite": "^6.3.5",
-    "vite-plugin-windicss": "^1.9.4",
-    "windicss": "^3.5.6"
+    "@tailwindcss/vite": "^4.1.8",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
   },
   "dependencies": {
     "@template/template": "workspace:*",

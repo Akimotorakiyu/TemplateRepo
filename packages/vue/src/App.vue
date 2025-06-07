@@ -1,5 +1,5 @@
 <template>
-  <div>hello world</div>
+  <div class="flex justify-center">hello world</div>
   <div>{{ greeting }}</div>
   <div>{{ time }}</div>
 </template>

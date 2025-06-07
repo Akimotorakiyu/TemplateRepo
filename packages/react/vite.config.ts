@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react'
 
 import nested from 'postcss-nested'
 
-import WindiCSS from 'vite-plugin-windicss'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [WindiCSS()],
+  plugins: [tailwindcss(), react()],
   server: {},
   css: {
     postcss: {

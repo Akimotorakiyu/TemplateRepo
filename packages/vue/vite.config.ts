@@ -5,10 +5,10 @@ import jsx from '@vitejs/plugin-vue-jsx'
 
 import nested from 'postcss-nested'
 
-import WindiCSS from 'vite-plugin-windicss'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [WindiCSS(), vue(), jsx()],
+  plugins: [tailwindcss(), vue(), jsx()],
   server: {},
   css: {
     postcss: {
