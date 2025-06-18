@@ -12,18 +12,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
     "@vitejs/plugin-vue": "^5.2.4",
     "@vitejs/plugin-vue-jsx": "^4.2.0",
     "@vue/compiler-sfc": "^3.5.16",
     "postcss": "^8.5.4",
     "postcss-nested": "^7.0.2",
-    "@tailwindcss/vite": "^4.1.8",
     "tailwindcss": "^4.1.8",
     "vite": "^6.3.5"
   },
   "dependencies": {
     "@template/template": "workspace:*",
     "alova": "^3.2.13",
+    "node": "^24.2.0",
     "ts-pattern": "^5.7.1",
     "vue": "^3.5.16",
     "wujie": "^1.0.28"
