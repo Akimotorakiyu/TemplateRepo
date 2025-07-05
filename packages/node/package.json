@@ -11,15 +11,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^24.0.7",
+    "@types/node": "^24.0.10",
     "typescript": "5.8.3"
   },
   "dependencies": {
     "@hono/client": "^0.0.3",
     "@hono/zod-validator": "^0.7.0",
-    "hono": "^4.8.3",
+    "hono": "^4.8.4",
     "jiti": "^2.4.2",
     "nodejs-polars": "^0.18.0",
-    "zod": "^3.25.67"
+    "zod": "^3.25.74"
   }
 }
