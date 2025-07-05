@@ -24,7 +24,6 @@
   "dependencies": {
     "@template/template": "workspace:*",
     "alova": "^3.3.4",
-    "node": "^24.3.0",
     "ts-pattern": "^5.7.1",
     "vue": "^3.5.17",
     "wujie": "^1.0.28"
