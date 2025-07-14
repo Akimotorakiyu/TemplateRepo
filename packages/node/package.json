@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "jiti watch src/index.ts"
+    "dev": "jiti src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
   "dependencies": {
     "@hono/client": "^0.0.3",
     "@hono/zod-validator": "^0.7.0",
+    "apache-arrow": "^21.0.0",
     "hono": "^4.8.4",
     "jiti": "^2.4.2",
     "nodejs-polars": "^0.18.0",
