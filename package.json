@@ -6,12 +6,12 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@types/node": "^24.0.10",
+    "@types/node": "^24.1.0",
     "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "pretty-quick": "^4.2.2",
     "typescript": "5.8.3",
-    "zx": "^8.6.1"
+    "zx": "^8.7.1"
   },
   "scripts": {
     "prepare": "husky",

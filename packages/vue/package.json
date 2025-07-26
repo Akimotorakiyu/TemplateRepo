@@ -15,17 +15,17 @@
     "@tailwindcss/vite": "^4.1.11",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vitejs/plugin-vue-jsx": "^5.0.1",
-    "@vue/compiler-sfc": "^3.5.17",
+    "@vue/compiler-sfc": "^3.5.18",
     "postcss": "^8.5.6",
     "postcss-nested": "^7.0.2",
     "tailwindcss": "^4.1.11",
-    "vite": "^7.0.2"
+    "vite": "^7.0.6"
   },
   "dependencies": {
     "@template/template": "workspace:*",
     "alova": "^3.3.4",
     "ts-pattern": "^5.7.1",
-    "vue": "^3.5.17",
-    "wujie": "^1.0.28"
+    "vue": "^3.5.18",
+    "wujie": "^1.0.29"
   }
 }
