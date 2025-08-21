@@ -14,7 +14,7 @@ pnpm install
 # vue3 dev
 pnpm serve-vue
 
-# react18 example
+# react example
 pnpm serve-react
 
 # micro example
