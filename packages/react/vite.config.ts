@@ -14,7 +14,4 @@ export default defineConfig({
       plugins: [nested as any],
     },
   },
-  esbuild: {
-    target: 'es2021',
-  },
 })
