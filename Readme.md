@@ -33,8 +33,11 @@ pnpm dev-fass
 ### useDefineForClassFields
 
 ```json
-// tsconfig
-"useDefineForClassFields": false
+{
+  "compilerOptions": {
+    "useDefineForClassFields": false
+  }
+}
 ```
 
 ### debug node/node-fass example
