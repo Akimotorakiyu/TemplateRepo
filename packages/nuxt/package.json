@@ -11,9 +11,9 @@
     "nuxt": "4.0.3"
   },
   "dependencies": {
-    "@vue/runtime-core": "^3.5.18",
-    "@vue/server-renderer": "^3.5.18",
-    "vue": "^3.5.18",
+    "@vue/runtime-core": "^3.5.19",
+    "@vue/server-renderer": "^3.5.19",
+    "vue": "^3.5.19",
     "vue-bundle-renderer": "^2.1.2"
   }
 }
