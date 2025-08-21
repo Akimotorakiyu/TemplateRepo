@@ -11,6 +11,7 @@
     "prettier": "^3.6.2",
     "pretty-quick": "^4.2.2",
     "typescript": "5.9.2",
+    "vitest": "^4.0.0-beta.7",
     "zx": "^8.8.1"
   },
   "scripts": {
@@ -20,11 +21,11 @@
     "serve": "pnpm run serve-vue",
     "serve-vue": "pnpm --filter=./packages/vue run serve",
     "serve-react": "pnpm --filter=./packages/react run serve",
-    "serve-micro": "pnpm --filter=./packages/example-micro-app run serve",
-    "serve-nuxt": "pnpm --filter=./packages/example-nuxt run serve",
-    "build": "pnpm --filter=./packages/example-vue run build",
-    "dev": "pnpm --filter=./packages/example-node run dev",
-    "dev-fass": "pnpm --filter=./packages/example-fass-node run dev"
+    "serve-micro": "pnpm --filter=./packages/micro-app run serve",
+    "serve-nuxt": "pnpm --filter=./packages/nuxt run serve",
+    "build": "pnpm --filter=./packages/vue run build",
+    "dev": "pnpm --filter=./packages/node run dev",
+    "test": "vitest --run"
   },
   "keywords": [],
   "author": "Akimotorakiyu",
