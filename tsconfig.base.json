@@ -16,6 +16,8 @@
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
     "alwaysStrict": true,
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "experimentalDecorators": false,
+    "noUncheckedIndexedAccess": true
   }
 }
