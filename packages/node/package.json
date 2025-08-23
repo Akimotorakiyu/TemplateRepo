@@ -20,7 +20,6 @@
     "@hono/zod-validator": "^0.7.2",
     "apache-arrow": "^21.0.0",
     "hono": "^4.9.2",
-    "nodejs-polars": "^0.21.0",
     "vite-node": "^3.2.4",
     "zod": "^4.0.17"
   }
