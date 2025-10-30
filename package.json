@@ -6,13 +6,13 @@
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@types/node": "^24.7.2",
+    "@types/node": "^24.9.2",
     "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "pretty-quick": "^4.2.2",
     "typescript": "5.9.3",
-    "vitest": "4.0.0-beta.17",
-    "zx": "^8.8.4"
+    "vitest": "4.0.5",
+    "zx": "^8.8.5"
   },
   "scripts": {
     "prepare": "husky",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "dependencies": {
     "@commitlint/types": "^20.0.0",
-    "lint-staged": "^16.2.4"
+    "lint-staged": "^16.2.6"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

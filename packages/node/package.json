@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^24.7.2",
+    "@types/node": "^24.9.2",
     "typescript": "5.9.3",
-    "vitest": "4.0.0-beta.17"
+    "vitest": "4.0.5"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.7.4",
     "apache-arrow": "^21.1.0",
-    "hono": "^4.9.11",
+    "hono": "^4.10.4",
     "vite-node": "^3.2.4",
     "zod": "^4.1.12"
   }

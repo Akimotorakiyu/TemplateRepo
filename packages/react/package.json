@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.16",
     "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.1",
-    "@vitejs/plugin-react": "^5.0.4",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
     "postcss": "^8.5.6",
     "postcss-nested": "^7.0.2",
-    "tailwindcss": "^4.1.14",
-    "vite": "^7.1.9"
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12"
   },
   "dependencies": {
     "@template/template": "workspace:*",
