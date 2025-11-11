@@ -1,1 +1,3 @@
-console.log("hello world! \n--from worker")
+import { sayHello } from './hello'
+
+sayHello()
