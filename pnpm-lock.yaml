@@ -168,6 +168,9 @@ importers:
       alova:
         specifier: ^3.3.4
         version: 3.3.4
+      comlink:
+        specifier: ^4.4.2
+        version: 4.4.2
       ts-pattern:
         specifier: ^5.9.0
         version: 5.9.0
@@ -2972,6 +2975,12 @@ packages:
     resolution:
       {
         integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==,
+      }
+
+  comlink@4.4.2:
+    resolution:
+      {
+        integrity: sha512-OxGdvBmJuNKSCMO4NTl1L47VRp6xn2wG4F/2hYzB6tiCb709otOxtEYCSvK80PtjODfXXZu8ds+Nw5kVCjqd2g==,
       }
 
   command-line-args@6.0.1:
@@ -8976,6 +8985,8 @@ snapshots:
   colord@2.9.3: {}
 
   colorette@2.0.20: {}
+
+  comlink@4.4.2: {}
 
   command-line-args@6.0.1:
     dependencies:

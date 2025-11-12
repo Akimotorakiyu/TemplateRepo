@@ -10,3 +10,11 @@ app.mount('#app')
 const worker = new Worker(new URL('./worker.ts', import.meta.url), {
   type: 'module',
 })
+
+import { proxy, wrap } from 'comlink'
+
+const p = wrap<{
+  sayHello: (getName: () => string) => void
+}>(worker)
+
+p.sayHello(proxy(() => 'rakiyu'))

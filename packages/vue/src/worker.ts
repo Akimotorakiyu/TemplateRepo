@@ -1,3 +1,9 @@
 import { sayHello } from './hello'
 
-sayHello()
+console.log(this, globalThis)
+
+import { expose } from 'comlink'
+
+expose({
+  sayHello,
+})

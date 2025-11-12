@@ -1,3 +1,3 @@
-export function sayHello() {
-  console.log('hello world! \n--from worker')
+export async function sayHello(getName: () => string) {
+  console.log(`hello world! \n--${await getName()}`)
 }
