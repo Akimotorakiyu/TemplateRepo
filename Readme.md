@@ -1,6 +1,6 @@
 # 🎬 Template-Repo
 
-A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [vite-node](https://github.com/vitest-dev/vitest/tree/main/packages/vite-node), support micro app with [wujie](https://github.com/Tencent/wujie)
+A pnpm template repo, support typescript out of box with [vite](https://github.com/vitejs/vite) and [vite-node](https://github.com/vitest-dev/vitest/tree/main/packages/vite-node)
 
 ### install
 
@@ -17,8 +17,7 @@ pnpm serve-vue
 # react example
 pnpm serve-react
 
-# micro example
-pnpm serve-micro-app
+
 
 # nuxt example
 pnpm serve-react
