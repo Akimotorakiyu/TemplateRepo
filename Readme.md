@@ -17,7 +17,8 @@ pnpm serve-vue
 # react example
 pnpm serve-react
 
-
+# solidjs example
+pnpm serve-solidjs
 
 # nuxt example
 pnpm serve-react
