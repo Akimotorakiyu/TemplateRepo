@@ -19,8 +19,8 @@
     "update-dependencies": "pnpm --recursive update",
     "update-dependencies-latest": "pnpm --recursive update --latest",
     "serve": "pnpm run serve-solidjs",
-    "serve-react": "pnpm --filter=./packages/react run serve",
     "serve-solidjs": "pnpm --filter=./packages/solidjs run serve",
+    "serve-react": "pnpm --filter=./packages/react run serve",
     "build": "pnpm --filter=./packages/solidjs run build",
     "dev": "pnpm --filter=./packages/node run dev",
     "test": "vitest --run"
