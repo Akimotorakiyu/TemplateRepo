@@ -11,16 +11,10 @@ pnpm install
 ### dev
 
 ```sh
-# vue3 dev
-pnpm serve-vue
-
-# react example
-pnpm serve-react
-
 # solidjs example
 pnpm serve-solidjs
 
-# nuxt example
+# react example
 pnpm serve-react
 
 # node example

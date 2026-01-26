@@ -1,6 +1,6 @@
 import { sayHello } from './hello'
 
-console.log(this, globalThis)
+console.log('globalThis in worker', globalThis)
 
 import { expose } from 'comlink'
 
