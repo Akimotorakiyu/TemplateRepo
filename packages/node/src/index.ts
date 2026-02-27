@@ -1,5 +1,3 @@
-import './polars'
-import './arrow'
 type TFact = (fatc: TFact, n: number) => number
 // Fact
 const fact4 = ((n: number) => {

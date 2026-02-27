@@ -14,9 +14,6 @@ pnpm install
 # solidjs example
 pnpm serve-solidjs
 
-# react example
-pnpm serve-react
-
 # node example
 pnpm dev
 ```

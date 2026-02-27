@@ -36,11 +36,6 @@ function App() {
       command: 'pnpm serve-solidjs',
       description: 'Run SolidJS example',
     },
-    {
-      id: 'serve-react',
-      command: 'pnpm serve-react',
-      description: 'Run React example',
-    },
     { id: 'dev', command: 'pnpm dev', description: 'Run Node.js example' },
     { id: 'build', command: 'pnpm build', description: 'Build for production' },
   ]
