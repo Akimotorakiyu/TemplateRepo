@@ -119,6 +119,22 @@ importers:
         specifier: workspace:*
         version: link:../core
 
+  packages/volta-agent:
+    dependencies:
+      vite-node:
+        specifier: ^6.0.0
+        version: 6.0.0(@types/node@25.5.0)(esbuild@0.27.3)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.2)
+    devDependencies:
+      '@types/node':
+        specifier: ^25.5.0
+        version: 25.5.0
+      typescript:
+        specifier: 5.9.3
+        version: 5.9.3
+      vitest:
+        specifier: 4.1.0
+        version: 4.1.0(@types/node@25.5.0)(msw@2.12.10(@types/node@25.5.0)(typescript@5.9.3))(vite@8.0.0(@types/node@25.5.0)(esbuild@0.27.3)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.2))
+
 packages:
   '@babel/code-frame@7.29.0':
     resolution:

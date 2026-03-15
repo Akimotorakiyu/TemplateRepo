@@ -1,0 +1,31 @@
+{
+  "name": "volta-agent",
+  "version": "1.0.0",
+  "description": "A simple Volta version manager agent",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "volta-agent": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "vite-node --watch src/index.ts",
+    "start": "node dist/cli.js",
+    "test": "vitest"
+  },
+  "keywords": [
+    "volta",
+    "node",
+    "version-manager"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "5.9.3",
+    "vitest": "4.1.0"
+  },
+  "dependencies": {
+    "vite-node": "^6.0.0"
+  }
+}
