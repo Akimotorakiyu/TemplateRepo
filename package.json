@@ -10,8 +10,8 @@
     "husky": "^9.1.7",
     "prettier": "^3.8.1",
     "pretty-quick": "^4.2.2",
-    "typescript": "5.9.3",
-    "vitest": "4.1.0",
+    "typescript": "6.0.2",
+    "vitest": "4.1.1",
     "zx": "^8.8.5"
   },
   "scripts": {

@@ -13,13 +13,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^25.5.0",
-    "typescript": "5.9.3",
-    "vitest": "4.1.0"
+    "typescript": "6.0.2",
+    "vitest": "4.1.1"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.7.6",
     "apache-arrow": "^21.1.0",
-    "hono": "^4.12.8",
+    "hono": "^4.12.9",
     "vite-node": "^6.0.0",
     "zod": "^4.3.6"
   }
