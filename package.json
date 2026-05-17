@@ -4,14 +4,14 @@
   "description": "🎬 A pnpm template repo, typescript support out of box with vite and jiti.",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^20.5.0",
-    "@commitlint/config-conventional": "^20.5.0",
-    "@types/node": "^25.6.0",
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "@types/node": "^25.8.0",
     "husky": "^9.1.7",
     "prettier": "^3.8.3",
     "pretty-quick": "^4.2.2",
     "typescript": "6.0.3",
-    "vitest": "4.1.4",
+    "vitest": "4.1.6",
     "zx": "^8.8.5"
   },
   "scripts": {
@@ -29,8 +29,8 @@
   "author": "Akimotorakiyu",
   "license": "MIT",
   "dependencies": {
-    "@commitlint/types": "^20.5.0",
-    "lint-staged": "^16.4.0"
+    "@commitlint/types": "^21.0.1",
+    "lint-staged": "^17.0.5"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
