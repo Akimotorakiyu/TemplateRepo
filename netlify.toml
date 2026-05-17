@@ -1,11 +1,11 @@
 # https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build.environment]
-  NPM_FLAGS = "--version"
-  NODE_VERSION = "--lts"
+  NODE_VERSION = "lts/*"
 
 [build]
-  command = "npx pnpm install --store=node_modules/.pnpm-store && npx pnpm build"
+  base = "."
+  command = "pnpm install --store=node_modules/.pnpm-store && pnpm build"
   publish = "packages/solidjs/dist"
 
 # The following redirect is intended for use with most SPAs 
@@ -14,3 +14,4 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  
