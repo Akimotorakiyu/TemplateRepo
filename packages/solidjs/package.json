@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.0",
-    "postcss": "^8.5.14",
+    "@tailwindcss/vite": "^4.3.2",
+    "postcss": "^8.5.19",
     "postcss-nested": "^7.0.2",
-    "tailwindcss": "^4.3.0",
+    "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
     "vite": "8.0.13",
     "vite-plugin-solid": "^2.11.12"
@@ -24,6 +24,6 @@
     "@template/template": "workspace:*",
     "comlink": "^4.4.2",
     "solid-devtools": "^0.34.5",
-    "solid-js": "^1.9.13"
+    "solid-js": "^1.9.14"
   }
 }
