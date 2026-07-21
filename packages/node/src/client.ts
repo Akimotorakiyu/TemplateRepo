@@ -1,14 +1,8 @@
-import { hc } from 'hono/client'
-import { AppType } from './hono'
-const client = hc<AppType>('/')
+import { hello, helloInputSchema } from './hono'
 
-const res = await client.hello.$get({
-  query: {
-    name: 'Hono',
-  },
+const input = helloInputSchema.parse({
+  name: 'oRPC',
 })
 
-if (res.ok) {
-  const data = await res.json()
-  console.log(data.message)
-}
+const data = hello(input)
+console.log(data.message)
