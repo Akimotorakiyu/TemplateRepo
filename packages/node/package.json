@@ -17,9 +17,8 @@
     "vitest": "4.1.6"
   },
   "dependencies": {
-    "@hono/zod-validator": "^0.8.0",
     "apache-arrow": "^21.1.0",
-    "hono": "^4.12.30",
+    "orpc": "^1.9.0",
     "vite-node": "^6.0.0",
     "zod": "^4.4.3"
   }
