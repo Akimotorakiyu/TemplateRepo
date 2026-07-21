@@ -1,24 +1,13 @@
-import { zValidator } from '@hono/zod-validator'
-import { Hono } from 'hono'
 import { z } from 'zod'
 
-const app = new Hono()
+export const helloInputSchema = z.object({
+  name: z.string(),
+})
 
-export default app
-const route = app.get(
-  '/hello',
-  zValidator(
-    'query',
-    z.object({
-      name: z.string(),
-    }),
-  ),
-  (c) => {
-    const { name } = c.req.valid('query')
-    return c.json({
-      message: `Hello! ${name}`,
-    })
-  },
-)
+export type HelloInput = z.infer<typeof helloInputSchema>
 
-export type AppType = typeof route
+export const hello = (input: HelloInput) => {
+  return {
+    message: `Hello! ${input.name}`,
+  }
+}
